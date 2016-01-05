@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+	<sceneries pathSceneries="sceneries/">
+		<scene id="coralReef" name="Coral Reef" bg="coralReef" gear="snorkel" />
+		<scene id="kelpForest" name="Kelp Forest" bg="kelpForest" gear="scuba" />
+		<scene id="openOceansTemperate" name="Open Oceans Temperate" bg="openOceans" gear="scuba" />
+		<scene id="openOceansTropical" name="Open Oceans Tropical" bg="openOceans" gear="scuba" />
+		<scene id="sandyPlainsTemperate" name="Sandy Plains Temperate" bg="sandyPlains" gear="snorkel" />
+		<scene id="seagrassTemperate" name="Seagrass Temperate" bg="seagrass" gear="snorkel" />
+		<scene id="seagrassTropical" name="Seagrass Tropical" bg="seagrass" gear="snorkel" />
+		<scene id="spongeGardens" name="Sponge Gardens" bg="spongeGardens" gear="scuba" />
+	</sceneries>
+	
+	<fishes pathImages="minigames/underwaterCQ/images/" pathAnimations="minigames/underwaterCQ/animations/">
+		<fish name="Banjo Ray" scienceName="(Trygonorrhina fasciata)" image="banjoRay.png" animation="banjoRay.swf" beginSpeed="6" endSpeed="11">
+			<description><![CDATA[banjo rays have eyes on the top of their head. this helps them see prey above as they wait in ambush on the sandy seabed. banjo rays are also called guitarfishes because they are shaped like a guitar. but don't try playing them.]]></description>
+			<scenes>
+				<scene>seagrassTemperate</scene>
+				<scene>sandyPlainsTemperate</scene>
+			</scenes>
+		</fish>
+		
+		<fish name="Blue-lined spinefoot" scienceName="(Siganus puellus)" image="blueLinedSpinefoot.png" animation="blueLinedSpinefoot.swf" beginSpeed="2" endSpeed="5">
+			<description><![CDATA[this is also called the masked rabbitfish. it is easy to see why. the spinefoot feeds mostly on seaweeds and sponges. its poisonous spine is used against predators. it might think you're one, so be careful. in australia you will find it in the north-west and off queensland's coast.]]></description>
+			<scenes>
+				<scene>seagrassTropical</scene>
+			</scenes>
+		</fish>		
+
+		<fish name="Box Jellyfish" scienceName="(Chironex fleckeri)" image="boxJellyfish.png" animation="boxJellyfish.swf" beginSpeed="6" endSpeed="11">
+			<description><![CDATA[the tentacles of this jellyfish hang off its box-shaped medusa. the medusa can be as big as a basketball. the venom of the box jellyfish is one of the deadliest in the world. so keep well away from them.]]></description>
+			<scenes>
+				<scene>openOceansTropical</scene>
+			</scenes>
+		</fish>
+		
+		<fish name="Coral Rock Cod" scienceName="(Cephalopholis miniata)" image="coralRockCod.png" animation="coralRockCod.swf" beginSpeed="2" endSpeed="5">
+			<description><![CDATA[this cod lives in the clear and exposed waters of coral reefs. it can swim very fast when it is chasing small fish and shrimp to eat. the male cod keeps a harem of females.]]></description>
+			<scenes>
+				<scene>coralReef</scene>
+			</scenes>
+		</fish>
+				
+		<fish name="Dot And Dash Butterfly Fish" scienceName="(Chaetodon pelewensis)" image="dotAndDashButterflyFish.png" animation="dotAndDashButterflyFish.swf" beginSpeed="2" endSpeed="5">
+			<description><![CDATA[you will find this fish in offshore reefs where there is plenty of cover. they are often seen in pairs feeding on coral and small creatures on the sea bed. sometimes they can be seen swimming at 30 meters.]]></description>
+			<scenes>
+				<scene>coralReef</scene>
+			</scenes>
+		</fish>
+		
+		<fish name="Dugong" scienceName="(Dugong dugon)" image="dugong.png" animation="dugong.swf" beginSpeed="6" endSpeed="11">
+			<description><![CDATA[if you see a dugong from above, you might just think it is a mermaid. why? its body can look like a woman and its tail like a fish tail. that's what the old sailors used to think anyway. dugongs are also called sea cows because of all the seagrass they eat. they are threatened because of hunting, pollution and damage to their habitats.]]></description>
+			<scenes>
+				<scene>seagrassTropical</scene>
+			</scenes>
+		</fish>
+		
+		<fish name="Emperor Angelfish" scienceName="(Pomacanthus imperator)" image="emperorAngelfish.png" animation="emperorAngelfish.swf" beginSpeed="2" endSpeed="5">
+			<description><![CDATA[this angelfish might be hard to find because it is very shy. if it sees you it will swim away and hide in a cave. however, if it thinks you are another male anglerfish, it will attack you to keep you out of its territory. so try not to look like another male angelfish.]]></description>
+			<scenes>
+				<scene>seagrassTropical</scene>
+			</scenes>
+		</fish>
+		
+		<fish name="Giant Cuttlefish" scienceName="(Sepia apama)" image="giantScuttlefish.png" animation="giantCuttlefish.swf" beginSpeed="2" endSpeed="5">
+			<description><![CDATA[the giant cuttlefish can change color right before your eyes. that's a handy thing when it wants to hide from sharks and seals. in south australia they used to gather in hundreds of thousands to breed. there are much fewer there now because of too much fishing.]]></description>
+			<scenes>
+				<scene>seagrassTemperate</scene>
+				<scene>sandyPlainsTemperate</scene>
+			</scenes>
+		</fish>
+		
+		<fish name="Great White Shark" scienceName="(Carcharodon carcharias)" image="greatWhiteShark.png" animation="greatWhiteShark.swf" beginSpeed="2" endSpeed="5">
+			<description><![CDATA[great white sharks can grow to at least 6 meters in length and weigh 3000 kilograms. they get that big by eating squid, seals, dolphins, dead whales and turtles. they are very rare because people have caught too many of them.]]></description>
+			<scenes>
+				<scene>openOceansTemperate</scene>
+			</scenes>
+		</fish>	
+		
+		<fish name="Green Moray Eel" scienceName="(Gymnothorax prasinus)" image="greenMorayEel.png" animation="greenMorayEel.swf" beginSpeed="6" endSpeed="11">
+			<description><![CDATA[morays have a terrific sense of smell which means they will know you are coming before they see you. they spend most of their time in caves and ambush passing fish, crabs and octopus. moray eels swim by wobbling their body in a wavy action.]]></description>
+			<scenes>
+				<scene>kelpForest</scene>
+			</scenes>
+		</fish>
+		
+		<fish name="Green Turtle" scienceName="(Chelonia mydas)" image="greenTurtle.png" animation="greenTurtle.swf" beginSpeed="12" endSpeed="15">
+			<description><![CDATA[it is very dangerous being a green turtle. very few ever get to be adults. before turtle eggs hatch they get eaten by predators or collected by people. after hatching, the baby turtles have to dodge seabirds on their way to the sea. in the sea there are fish to avoid. and as they grow they can get tangled in nets, swallow plastic bags, and get hit by boats. this is why they are threatened.]]></description>
+			<scenes>
+				<scene>seagrassTropical</scene>
+			</scenes>
+		</fish>
+				
+		<fish name="Grey Shark" scienceName="(Carcharhinus amblyrhynchos)" image="greyShark.png" animation="greyShark.swf" beginSpeed="2" endSpeed="5">
+			<description><![CDATA[grey sharks do most of their hunting of fish, squid and octopus at night. their body color is great for camouflage. from above its dark back blends with the seabed. from below its light belly matches the water surface. sadly, grey shark numbers are dropping rapidly because of too much fishing, including shark finning.]]></description>
+			<scenes>
+				<scene>coralReef</scene>
+			</scenes>
+		</fish>
+		
+		<fish name="Humpback Whale" scienceName="(Megaptera novaeangliae)" image="humpbackWhale.png" animation="humpbackWhale.swf" beginSpeed="6" endSpeed="11">
+			<description><![CDATA[humpback whales are really good singers. that's how they communicate with each other. they are also excellent swimmers and can travel 25,000 kilometers in just one year. whaling killed most of the humpback whales in the world. since it was banned their numbers have increased to about 80,000.]]></description>
+			<scenes>
+				<scene>openOceansTemperate</scene>
+				<scene>openOceansTropical</scene>
+			</scenes>
+		</fish>
+		
+		<fish name="Indo-Pacific Blue Marlin" scienceName="(Makaira mazara)" image="indoPacificBlueMarlin.png" animation="indoPacificBlueMarlin.swf" beginSpeed="2" endSpeed="5">
+			<description><![CDATA[this marlin is a migratory fish that spends a lot of its time by itself or in small schools of about ten. it prefers warm waters where it feeds on squid and other fish. in australia it can be found on the east and west coasts. they are fast swimmers so don't expect to keep up with them.]]></description>
+			<scenes>
+				<scene>openOceansTropical</scene>
+			</scenes>
+		</fish>
+		
+		<fish name="Leafy Sea Dragon" scienceName="(Phycodurus eques)" image="leafySeaDragon.png" animation="leafySeaDragon.swf" beginSpeed="12" endSpeed="15">
+			<description><![CDATA[what great camouflage! you will have to look very carefully if you want to find a leafy sea dragon. and you will only find it in the cool waters of southern australia. the leafy sea dragon is a threatened species. its habitat has been damaged by water pollution and too many have been collected to put in people's fish tanks.]]></description>
+			<scenes>
+				<scene>seagrassTemperate</scene>
+			</scenes>
+		</fish>
+		
+		<!-- turtles don't come any bigger than the leatherback. -->
+		<fish name="Leatherback Turtle" scienceName="(Dermochelys coriacea)" image="leatherbackTurtle.png" animation="leatherbackTurtle.swf" beginSpeed="12" endSpeed="15">
+			<description><![CDATA[other turtles have shells, but this one has a thick cover of skin and oily flesh. that sounds gross but it is probably why it can grow so big, dive so deep and swim so far. the leatherback holds the reptile record for diving at 1200 meters, and it can swim thousands of kilometers. sadly it is critically endangered. egg harvesting, fishing pollution and its swallowing of plastic bags are reasons why.]]></description>
+			<scenes>
+				<scene>openOceansTemperate</scene>
+				<scene>openOceansTropical</scene>
+			</scenes>
+		</fish>
+		
+		<fish name="Lionfish" scienceName="(Pterois volitans)" image="lionfish.png" animation="lionfish.swf" beginSpeed="2" endSpeed="5">
+			<description><![CDATA[lionfish hover near caves and crevices in coral reefs. they use their fins to corner their prey and then quickly swallow them whole. the poison in their spines is deadly to fish but usually not to humans. however it is best to keep well away from them.]]></description>
+			<scenes>
+				<scene>coralReef</scene>
+			</scenes>
+		</fish>
+		
+		<fish name="Oblique-banded Sweetlips" scienceName="(Plectorhinchus lineatus)" image="obliqueBandedSweetlips.png" animation="obliqueBandedSweetlips.swf" beginSpeed="2" endSpeed="5">
+			<description><![CDATA[the sweetlips takes it easy during the day and then goes out looking for food at night. sometimes it visits cleaning stations where small fish remove tasty parasites from its gills and mouth.]]></description>
+			<scenes>
+				<scene>coralReef</scene>
+			</scenes>
+		</fish>
+		
+		<fish name="Pale Octopus" scienceName="(Octopus pallidus)" image="paleOctopus.png" animation="paleOctopus.swf" beginSpeed="6" endSpeed="11">
+			<description><![CDATA[if you find a pile of shells it just might be the entrance to the lair of the pale octopus. that's where it stays during the day. at night it heads out looking for small fish, crabs and shellfish. it's also on the alert for the gummy shark, its main predator.]]></description>
+			<scenes>
+				<scene>sandyPlainsTemperate</scene>
+			</scenes>
+		</fish>
+		
+		<fish name="Port Jackson Shark" scienceName="(Heterodontus portusjacksoni)" image="portJacksonShark.png" animation="portJacksonShark.swf" beginSpeed="2" endSpeed="5">
+			<description><![CDATA[like most sharks, this one is harmless to humans. but unlike most sharks, it doesn't have to swim to breathe. instead, it can pump water across its gills. this means that it can stay on the seabed for a long time. that's mostly during the day. at night they are out searching for the small fish, crabs and shellfish that come out after dark.]]></description>
+			<scenes>
+				<scene>spongeGardens</scene>
+			</scenes>
+		</fish>
+		
+		<fish name="Red Indian Fish" scienceName="(Pataecus fronto)" image="redIndianFish.png" animation="redIndianFish.swf" beginSpeed="2" endSpeed="5">
+			<description><![CDATA[this fish wants you to think that it is a red sponge. did it fool you? what else does it look like? the person who got to name this fish thought it looked like the headdress of a native american chief. how would it look on your head? this fish also tries to trick predators by swimming as if it were a floating leaf. and it can shed its entire skin all at once.]]></description>
+			<scenes>
+				<scene>spongeGardens</scene>
+			</scenes>
+		</fish>
+		
+		<fish name="Rock Ling" scienceName="(Genypterus tigerinus)" image="rockLing.png" animation="rockLing.swf" beginSpeed="2" endSpeed="5">
+			<description><![CDATA[the rock ling likes to hang out in caves and crevices in the cool waters off southern australia. before it becomes an adult though, it lives in estuaries. that is where rivers meet the sea. when it grows up, it can be as long as 1200 centimeters.]]></description>
+			<scenes>
+				<scene>kelpForest</scene>
+			</scenes>
+		</fish>
+		
+		<fish name="Sand Flathead" scienceName="(Platycephalus bassensis)" image="sandFlathead.png" animation="sandFlathead.swf" beginSpeed="2" endSpeed="5">
+			<description><![CDATA[the sand flathead keeps to itself and stays on the bottom of its habitat. this fish follows the incoming tide that floods the flats and shallow waters. when the tide goes out, the flathead swims with it to deeper water. it will do this for up to 23 years, which is how long it can live.]]></description>
+			<scenes>
+				<scene>sandyPlainsTemperate</scene>
+			</scenes>
+		</fish>
+		
+		<fish name="Sand Whiting" scienceName="(Sillago ciliata)" image="sandWhiting.png" animation="sandWhiting.swf" beginSpeed="2" endSpeed="5">
+			<description><![CDATA[if the sand whiting sees a predator, it will bury itself in the sand. to find worms and other food it digs the sand with is nose and then sucks it up through its tube-shaped mouth. the sand whiting likes to be with other sand whiting in schools.]]></description>
+			<scenes>
+				<scene>sandyPlainsTemperate</scene>
+			</scenes>
+		</fish>
+		
+		<fish name="Senator Wrasse" scienceName="(Pictilabrus laticlavius)" image="senatorWrasse.png" animation="senatorWrasse.swf" beginSpeed="2" endSpeed="5">
+			<description><![CDATA[what a brilliantly colored fish. that must help it hide at the bottom of the kelp forest among the seaweed. or maybe it helps attract the less-colourful female. to do that he also swims above the kelp with his fins erect. all senator wrasse start life as a female. only the very largest becomes a male.]]></description>
+			<scenes>
+				<scene>kelpForest</scene>
+			</scenes>
+		</fish>
+		
+		<fish name="Shaw's Cowfish" scienceName="(Aracana aurita)" image="shawsCowfish.png" animation="shawsCowfish.swf" beginSpeed="2" endSpeed="5">
+			<description><![CDATA[why do you think this is called a cowfish? might it moo under water? or eat lots of grass? look out for a fish that is about 25 centimeters in length and is swimming above reefs, sand and seagrass.]]></description>
+			<scenes>
+				<scene>spongeGardens</scene>
+			</scenes>
+		</fish>
+		
+		<fish name="Six Spined Leatherjacket" scienceName="(Meuschenia freycineti)" image="sixSpinedLeatherjacket.png" animation="sixSpinedLeatherjacket.swf" beginSpeed="2" endSpeed="5">
+			<description><![CDATA[during the breeding season, you might see two males going head-to-head or spine–to-spine. they use the spines to attack each other. the wounds can be serious even though the fish has a very tough skin (that's why it is called a leatherjacket).]]></description>
+			<scenes>
+				<scene>seagrassTemperate</scene>
+			</scenes>
+		</fish>
+		
+		<!-- tuna are fast and strong, and can dive to at least 500 meters. -->
+		<fish name="Southern Bluefin Tuna" scienceName="(Thunnus maccoyii)" image="southernBluefinTuna.png" animation="southernBluefinTuna.swf" beginSpeed="2" endSpeed="5">
+			<description><![CDATA[southern bluefin tuna are sprinters and long distance swimmers at the same time. they race around the oceans at 70 kilometers per hour. they have to keep on the move to get water across their gills. otherwise they would die. they are also very valuable to the japanese raw fish markets. that has led to too much fishing and the tuna is now endangered.]]></description>
+			<scenes>
+				<scene>openOceansTemperate</scene>
+			</scenes>
+		</fish>
+		
+		<fish name="Southern Rock Lobster" scienceName="(Jasus edwardsii)" image="southernRockLobster.png" animation="southernRockLobster.swf" beginSpeed="12" endSpeed="15">
+			<description><![CDATA[rock lobsters live on the seabed feeding on sea stars, sea urchins and shellfish. some live in water as deep as 200 meters, so don't try to scuba down to photograph those. if they haven't been caught by a rock lobster fisher, or eaten by a shark or other big fish, they might live to be 20.]]></description>
+			<scenes>
+				<scene>spongeGardens</scene>
+			</scenes>
+		</fish>
+		
+		<fish name="Sun Fish" scienceName="(Mola mola)" image="sunFish.png" animation="sunFish.swf" beginSpeed="2" endSpeed="5">
+			<description><![CDATA[this is one heavy fish. in fact, it's the heaviest bony fish in the oceans. the sun fish swims with the currents feeding on jellyfish, squid and plankton. sharks tuna and seals are their main predators. they get caught in fishing gear. sometimes they swallow and choke on plastic bags that look like jelly fish.]]></description>
+			<scenes>
+				<scene>openOceansTemperate</scene>
+				<scene>openOceansTropical</scene>
+			</scenes>
+		</fish>
+		
+		<fish name="Weedy Sea Dragon" scienceName="(Phyllopteryx taeniolatus)" image="weedySeaDragon.png" animation="weedySeaDragon.swf" beginSpeed="12" endSpeed="15">
+			<description><![CDATA[this delicate creature is only found in the cool waters of southern australia – nowhere else in the world. it is called 'weedy' because it looks like seaweed has been stuck to its body. In weedy sea dragon families, the male looks after sea dragon eggs. he keeps them under his tail. sea horses, which are relatives, keep them in a pouch.]]></description>
+			<scenes>
+				<scene>kelpForest</scene>
+				<scene>spongeGardens</scene>
+			</scenes>
+		</fish>
+		
+		<fish name="Wobbegong" scienceName="(Orectolobus ornatus, Orectolobus maculatus)" image="wobbegong.png" animation="wobbegong.swf" beginSpeed="2" endSpeed="5">
+			<description><![CDATA[try to say wobbegong ten times quickly! but don't do it while you are under water. wobbegongs are also called carpet sharks. do you think they look like a rug or a carpet? well, they do spend a lot of time on the sea floor. that's where they hide, waiting to ambush fish, crabs and crayfish.]]></description>
+			<scenes>
+				<scene>kelpForest</scene>
+			</scenes>
+		</fish>
+		
+		<fish name="Yelloweye Mullet" scienceName="(Aldrichetta forsteri)" image="yelloweyeMullet.png" animation="yelloweyeMullet.swf" beginSpeed="2" endSpeed="5">
+			<description><![CDATA[if you can get close enough to a big school of these mullet you should be able to see the color of their eyes. was it yellow? they also have a large mouth and feed on seagrass, decaying plants and animals, snails and shellfish. as adults their food is mostly plants.]]></description>
+			<scenes>
+				<scene>seagrassTemperate</scene>
+			</scenes>
+		</fish>
+		
+		<fish name="Yellowfin Goatfish" scienceName="(Mulloidichthys vanicolensis)" image="yellowfinGoatfish.png" animation="yellowfinGoatfish.swf" beginSpeed="2" endSpeed="5">
+			<description><![CDATA[this fish rests during the day with a lot of other goatfish. you will find them on sandy areas of reefs and in lagoons. at night they all head off to feed on worms and small crustaceans.]]></description>
+			<scenes>
+				<scene>seagrassTropical</scene>
+			</scenes>
+		</fish>	
+	</fishes>
+</configuration>

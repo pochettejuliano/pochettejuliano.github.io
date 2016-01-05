@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<configurationData>
+ 	<timeLimit>60</timeLimit>
+	<levelChangeInt>10</levelChangeInt>
+	<sameColorBonus>10</sameColorBonus>
+	<bubbleMaxCount>40</bubbleMaxCount>
+	
+	<bubbleProdRateInit>200</bubbleProdRateInit>
+	<bubbleProdRateChange>10</bubbleProdRateChange>
+	
+	<bubbleGrowSpeedInit>20</bubbleGrowSpeedInit>
+	<bubbleGrowSpeedChange>1</bubbleGrowSpeedChange>
+	
+	<bubbleMoveSpeedInit>10</bubbleMoveSpeedInit>
+	<bubbleMoveSpeedChange>1</bubbleMoveSpeedChange>
+	
+	<bubbleSpeedBaseInit>20</bubbleSpeedBaseInit>
+	<bubbleSpeedBaseChange>2</bubbleSpeedBaseChange>
+	
+	<bubbleSpeedMinInit>10</bubbleSpeedMinInit>
+	<bubbleSpeedMinChange>1</bubbleSpeedMinChange>
+	
+	<bonusProdRate>3000</bonusProdRate>
+</configurationData>
+
+<bubbles>
+	<bubble colorID="0xFF0000" points="1" /> <!-- RED -->
+	<bubble colorID="0xFF9900" points="2" /> <!-- ORANGE -->
+	<bubble colorID="0xFFFF00" points="3" /> <!-- YELLOW -->
+	<bubble colorID="0x00CC00" points="4" /> <!-- GREEN -->
+	<bubble colorID="0x0066FF" points="5" /> <!-- BLUE -->
+	<bubble colorID="0xCC00FF" points="6" /> <!-- VIOLET -->
+</bubbles>
